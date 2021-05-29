@@ -1,0 +1,29 @@
+package assign17thMAy;
+
+import java.util.Scanner;
+
+public class FillMultiples {
+
+	static int[] getlMultiplesArray(int num) {
+		int mul[] = new int[10];
+		if (num >= 0) {
+			for (int i = 1; i <= num; i++) {
+
+				mul[i] = num * i;
+			}
+
+		}
+		return mul;
+
+	}
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int[] arr = getlMultiplesArray(scanner.nextInt());
+		for (int x : arr) {
+			System.out.println(x);
+		}
+	}
+
+}

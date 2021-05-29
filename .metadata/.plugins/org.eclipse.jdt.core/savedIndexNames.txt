@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\OILC-201(Shravani Ega)(21222)\OILC-201CoreJavaPrograms\.metadata\.plugins\org.eclipse.jdt.core
+3477841576.index
+3006191936.index
